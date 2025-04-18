@@ -1,0 +1,11 @@
+/* Navbar.css */
+.nav-item {
+    padding: 1rem;
+    font-weight: bold;
+    transition: color 150ms ease-in-out;
+  }
+  
+  .nav-item:hover {
+    color: white;
+  }
+  
