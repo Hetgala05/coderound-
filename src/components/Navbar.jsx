@@ -21,7 +21,7 @@ const Navbar = () => {
         <li class="nav-item"><Link to="/Home">How it works</Link></li>
         <li class="nav-item"><Link to="/Home">Pricing</Link></li>
         <li class="nav-item"><Link to="/job-portal">Job Portal</Link></li>
-        <li class="nav-item"><Link to="/profile">Profile</Link></li>
+        <li class="nav-item"><Link to="/Contact">Contact</Link></li>
       </ul>
 
       {/* Mobile Hamburger Icon */}
@@ -49,7 +49,7 @@ const Navbar = () => {
           <li class="nav-item"><Link to="/">How it works</Link></li>
           <li class="nav-item"><Link to="/">Pricing</Link></li>
           <li class="nav-item"><Link to="/job-portal">Job Portal</Link></li>
-          <li class="nav-item"><Link to="/profile">Profile</Link></li>
+        <li class="nav-item"><Link to="/Contact">Contact</Link></li>
         </ul>
       </div>
     </div>

@@ -1,51 +1,96 @@
 import React, { useState,useEffect } from 'react';
 
 const jobData = [
-    {
-      id: 1,
-      title: "Financial Controller – Analyst",
-      company: "Barclays",
-      location: "Candor TechSpace, Noida",
-      type: "Full time",
-      techStack: ["Excel", "SAP", "Financial Modeling"],
-      applyLink: "#"
-    },
-    {
-      id: 2,
-      title: "Cloud Data Engineer",
-      company: "Barclays",
-      location: "Gera Commerzone SEZ, Pune",
-      type: "Full time",
-      techStack: ["Azure", "Python", "SQL", "ETL"],
-      applyLink: "#"
-    },
-    {
-      id: 3,
-      title: "Frontend Developer",
-      company: "Coderound.ai",
-      location: "Remote",
-      type: "Part time",
-      techStack: ["React", "TailwindCSS", "JavaScript"],
-      applyLink: "#"
-    },
-    {
-      id: 4,
-      title: "Backend Engineer",
-      company: "Coderound.ai",
-      location: "Mumbai",
-      type: "Full time",
-      techStack: ["Node.js", "Express", "MongoDB"],
-      applyLink: "#"
-    },
-    {
-      id: 5,
-      title: "UI/UX Developer",
-      company: "Coderound.ai",
-      location: "Mumbai",
-      type: "Full time",
-      techStack: ["Figma", "Adobe XD", "HTML", "CSS"],
-      applyLink: "#"
-    }
+  {
+    id: 1,
+    title: "Financial Controller – Analyst",
+    company: "Barclays",
+    location: "Candor TechSpace, Noida",
+    type: "Full time",
+    techStack: ["Excel", "SAP", "Financial Modeling"],
+    applyLink: "#"
+  },
+  {
+    id: 2,
+    title: "Cloud Data Engineer",
+    company: "Barclays",
+    location: "Gera Commerzone SEZ, Pune",
+    type: "Full time",
+    techStack: ["Azure", "Python", "SQL", "ETL"],
+    applyLink: "#"
+  },
+  {
+    id: 3,
+    title: "Frontend Developer",
+    company: "Coderound.ai",
+    location: "Remote",
+    type: "Part time",
+    techStack: ["React", "TailwindCSS", "JavaScript"],
+    applyLink: "#"
+  },
+  {
+    id: 4,
+    title: "Backend Engineer",
+    company: "Coderound.ai",
+    location: "Mumbai",
+    type: "Full time",
+    techStack: ["Node.js", "Express", "MongoDB"],
+    applyLink: "#"
+  },
+  {
+    id: 5,
+    title: "UI/UX Developer",
+    company: "Coderound.ai",
+    location: "Mumbai",
+    type: "Full time",
+    techStack: ["Figma", "Adobe XD", "HTML", "CSS"],
+    applyLink: "#"
+  },
+  {
+    id: 6,
+    title: "DevOps Engineer",
+    company: "Infosys",
+    location: "Hyderabad",
+    type: "Full time",
+    techStack: ["Docker", "Kubernetes", "AWS", "CI/CD"],
+    applyLink: "#"
+  },
+  {
+    id: 7,
+    title: "Mobile App Developer",
+    company: "Zoho Corp",
+    location: "Chennai",
+    type: "Full time",
+    techStack: ["Flutter", "Dart", "Firebase"],
+    applyLink: "#"
+  },
+  {
+    id: 8,
+    title: "Machine Learning Intern",
+    company: "TCS",
+    location: "Remote",
+    type: "Internship",
+    techStack: ["Python", "TensorFlow", "Pandas", "NumPy"],
+    applyLink: "#"
+  },
+  {
+    id: 9,
+    title: "Technical Support Associate",
+    company: "Amazon",
+    location: "Bangalore",
+    type: "Full time",
+    techStack: ["Communication", "Networking", "Linux"],
+    applyLink: "#"
+  },
+  {
+    id: 10,
+    title: "Game Developer",
+    company: "Ubisoft",
+    location: "Pune",
+    type: "Full time",
+    techStack: ["Unity", "C#", "Game Physics"],
+    applyLink: "#"
+  }
 ];
 
 const JobPortal = () => {

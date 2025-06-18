@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Navbar from './components/Navbar';
 import Footer from './components/footer';
 import JobPortal from './components/JobPortal';
-import Profile from './components/Profile';
 import Home from './components/Home';
+import Contact from './components/Contact'
 import './App.css';
 
 import AOS from 'aos';
@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Home" element={<Navigate to="/" />} />
         <Route path="/job-portal" element={<JobPortal />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
