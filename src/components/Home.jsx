@@ -34,19 +34,23 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Loop Video section */}
-      <div className="flex justify-center items-center"    
-        data-aos="zoom-in-up"
-        data-aos-duration="2000">
-        <video autoPlay loop muted>
-          <source
-            src="https://www.coderound.io/videos/coderound.mp4"
-            type="video/mp4"
-          />
-          "Your browser does not support the video tag."
-        </video>
-      </div>
+      <div
+  className="flex justify-center items-center w-full"
+  data-aos="zoom-in-up"
+  data-aos-duration="2000"
+>
+  <iframe
+    width="800"
+    height="450"
+    src="https://www.youtube.com/embed/qYGralN2Rzw?autoplay=1&loop=1&mute=1&playlist=qYGralN2Rzw"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="autoplay; encrypted-media"
+    allowFullScreen
+  ></iframe>
+</div>
 
+      
       {/* Features Section header*/}
       <div className="max-w-[1240px] h-24 flex justify-center mx-auto px-4 items-center py-50 md:py-40">
         <div
